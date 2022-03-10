@@ -11,43 +11,16 @@
     </style>
 </head>
 <body class="bg-secondary">
-    <div class="container p-5" style="height: 100vh;">
-        
-        <div class="row">
-            <!-- <div class="col-3" id="city" >
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      
-                    </div>
-                  </div> 
-            </div> -->
+    <div class="container-fluid p-5" style="height: 100vh;">
     
-            <div class="mt-3 w-25 mx-auto">
-                <label for="formGroupExampleInput" class="form-label">Get Location With City Name</label>
-                <input type="text" class="form-control" placeholder="City name..." id="input">
+            <div class="mx-auto  mt-5" style="width: 13rem;">
+                <label for="formGroupExamp leInput" class="form-label">Get Location With City Name</label>
+                <input type="text" class="form-control w-100" placeholder="City name..." id="input">
                
                 <a href="" data-bs-toggle="modal" data-bs-target="#modalRelatedContent">
                     <button class="btn-sm btn-primary mt-1" id="button">Get Weather</button>
                     </a>
-                <!-- <div class="col-3" id="city" >
-                    <div class="card mt-3" id="weather" style="width: 18rem; height: 18rem;">
-                        <h5 class="card-title text-primary" id="city-name"></h5>
-                        <div class="card-body">
-                            <img src="..." class="card-img-top w-25"
-                        id="icon" alt="...">
-                          
-                          <p class="card-text" id="description"></p>
-                          <p class="card-text" id="temp"></p>
-                          <p class="card-text" id="humidity"></p>
-                          <p class="card-text" id="speed"></p>
-                          
-                        </div>
-                        <button class="btn-close" data-bs-dismiss="card"></button>
-                      </div> 
-                </div> -->
+           
                 <!--Modal: modalRelatedContent-->
       <div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog"
       aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false" style="display: none;">
@@ -74,10 +47,10 @@
     
               <div class="col-4">
                 <p><strong class="text-capitalize text-secondary" id="description">Make sure to enter valid City name</strong></p>
-                <p class="text-secondary" id="temp">The City you've called can not be reached at the moment, please enter valid name later...</p>
+                <h2 class="text-secondary" id="temp"></h2>
 
                 <!-- <button type="button" class="btn btn-info btn-md">Read more</button> -->
-                <p class="text-secondary" id="humidity"></p>
+                <p class="text-secondary" id="humidity">The City you've called can not be reached at the moment, please enter valid name later...</p>
                 <p class="text-secondary" id="speed"></p>
               </div>
             </div>
