@@ -37,8 +37,8 @@ btnClose.addEventListener("click", () =>{
        document.querySelector("#city-name").innerText = "";
        document.querySelector("#icon").src = "https://icon-library.com/images/error-icon-png/error-icon-png-15.jpg";
        document.querySelector("#description").innerText = "Make sure to enter valid City name";
-       document.querySelector("#temp").innerText = "The City you've called can not be reached at the moment, please enter valid name later...";
-       document.querySelector("#humidity").innerText = "";
+       document.querySelector("#temp").innerText = "";
+       document.querySelector("#humidity").innerText = "The City you've called can not be reached at the moment, please enter valid name later...";
        document.querySelector("#speed").innerText = "";
 })
 
